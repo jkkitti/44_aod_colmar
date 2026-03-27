@@ -3,9 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>44-aod-colmar</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Colmar Academy</title>
   </head>
-  <body>
-    <h1>44-aod-colmar</h1>
+  <body class="bg-gray-100 text-gray-800">
+    <!--==== header ====-->
+    <header class="bg-white">
+      <div class="flex items-center px-6 h-16">
+        <!-- logo (desktop) -->
+        <div class="flex items-center gap-0">
+          <img src="/ic-logo.svg" class="w-8 h-8" />
+          <span class="font-bold">
+            COLMAR <span class="text-gray-400">ACADEMY</span>
+          </span>
+        </div>
+
+        <!-- menu -->
+        <nav class="hidden md:flex gap-6 ml-auto">
+          <a href="#">On campus</a>
+          <a href="#">Online</a>
+          <a href="#">For companies</a>
+          <a href="#">Sign in</a>
+        </nav>
+
+        <!-- mobile menu -->
+        <nav class="md:hidden w-full">
+          <ul class="flex justify-center items-center gap-16">
+            <li><img src="/ic-logo.svg" class="h-10" /></li>
+            <li><img src="/ic-on-campus.svg" class="h-10" /></li>
+            <li><img src="/ic-online.svg" class="h-10" /></li>
+            <li><img src="/ic-login.svg" class="h-10" /></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
