@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
     <title>Colmar Academy</title>
   </head>
   <body class="bg-gray-100 text-gray-800">
@@ -62,6 +65,114 @@
           <a href="#" class="bg-gray-700 text-white text-center py-2">
             Start here
           </a>
+        </div>
+      </section>
+
+      <!-- === information === -->
+      <section class="bg-white flex flex-col md:flex-row px-6 py-8 md:py-16">
+        <!-- left -->
+        <div class="hidden md:block md:basis-3/5 border-r border-gray-200">
+          <img src="/information-main.jpg" class="w-full" />
+
+          <h2 class="text-2xl font-bold mt-8 mb-4">
+            It doesn’t hurt to keep practicing
+          </h2>
+
+          <p class="text-gray-600">
+            Lorem ipsum dolor sit amet. Voluptas, voluptate. Lorem ipsum dolor
+            <br />
+            sit amet consectetur adipisicing elit. Voluptas, voluptate. Lorem
+            <br />
+            ipsum dolor sit amet consectetur adipisicing elit. Volupt
+          </p>
+
+          <p class="mt-6 font-semibold text-sm">
+            Emanuel, Sr Strategist at Hiring.com
+          </p>
+        </div>
+
+        <!-- right -->
+        <div class="md:basis-2/5 flex flex-col gap-16 md:gap-6 md:pl-6">
+          <!-- card 1 -->
+          <div class="flex flex-col md:flex-row gap-4 items-stretch p-4 pt-0">
+            <div class="md:basis-[35%]">
+              <img
+                src="/information-orientation-mobile.jpg"
+                class="md:hidden w-full mb-4"
+              />
+              <img
+                src="/information-orientation.jpg"
+                class="hidden md:block w-full h-full object-cover"
+              />
+            </div>
+
+            <div class="md:basis-[65%]">
+              <h3 class="font-bold text-lg md:text-xl text-gray-800 mb-2">
+                Orientation date
+              </h3>
+              <p class="text-base text-gray-600 mb-2">
+                Tue 10/11 & Wed 10/12: 8am-3pm
+              </p>
+              <a href="#" class="text-blue-600 text-sm font-medium">
+                Read more
+              </a>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="flex flex-col md:flex-row gap-4 p-4 items-stretch">
+            <div class="md:basis-[35%]">
+              <img
+                src="/information-campus-mobile.jpg"
+                class="md:hidden w-full mb-4"
+              />
+              <img
+                src="/information-campus.jpg"
+                class="hidden md:block w-full h-full object-cover"
+              />
+            </div>
+
+            <div class="md:basis-[65%]">
+              <h3 class="font-bold text-lg md:text-xl text-gray-800 mb-2">
+                Our campus
+              </h3>
+              <p class="text-base text-gray-600 mb-2">
+                Find which campus is close by you
+              </p>
+              <a href="#" class="text-blue-600 text-sm font-medium">
+                Read more
+              </a>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div
+            class="flex flex-col md:flex-row gap-4 bg-gray-300 p-4 items-stretch"
+          >
+            <div class="md:basis-[35%]">
+              <img
+                src="/information-guest-lecture-mobile.jpg"
+                class="md:hidden w-full mb-4"
+              />
+              <img
+                src="/information-guest-lecture.jpg"
+                class="hidden md:block w-full h-full object-cover"
+              />
+            </div>
+
+            <div class="md:basis-[65%]">
+              <h3 class="font-bold text-lg md:text-xl text-gray-800 mb-2">
+                Our guest lecture
+              </h3>
+              <p class="text-base text-gray-600 mb-2">
+                Join a keynote with Oliver Sack <br />
+                about music in medical treatment
+              </p>
+              <a href="#" class="text-blue-600 text-sm font-medium">
+                Read more
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
